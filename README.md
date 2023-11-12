@@ -8,3 +8,7 @@ conda create -n sandbox python=3.7.9
 
 Dependencies installed: 
 streamlit pandas plotly
+
+Run the code as: 
+streamlit run waste_dashboard.py
+
