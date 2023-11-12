@@ -1,19 +1,10 @@
 # OceanTechChallenge
 
-Runninng in conda sandbox with 
-Python 3.7.9 version 
-
-Create conda environment using: 
-conda create -n sandbox python=3.7.9
-
-Dependencies installed: 
-streamlit pandas plotly
-
-Run the code as: 
-streamlit run waste_dashboard.py
-
-
 Dashboard for AI-Enhanced Waste Surveillance System
+
+
+https://github.com/sijan67/OceanTechChallenge/assets/70575969/1b70b85c-d3d0-4a9a-92d3-a3ebecae4154
+
 
 ### Trash Bin Monitoring:
 The dashboard provides insights into the monitoring of trash bins. Each bin is assigned a unique ID (`Bin_ID`) and a specific waste category (`Category`), such as cardboard, glass, metal, paper, plastic, compost, or general trash. The dashboard displays the number of warnings (`Warnings`) issued and the fill level (`Fill_Level`) of each bin.
@@ -34,5 +25,18 @@ The dashboard utilizes mock data to simulate real-world scenarios. This is helpf
 ### Future Applications:
 The dashboard can be scaled and adapted for real-world applications. It could support municipalities, waste management companies, or environmental agencies in optimizing waste collection, identifying areas with high pollution levels, and planning effective cleanup operations. The ability to visualize and analyze data contributes to informed decision-making and sustainable waste management practices.
 
-https://github.com/sijan67/OceanTechChallenge/assets/70575969/1b70b85c-d3d0-4a9a-92d3-a3ebecae4154
+# Running the code: 
+Runninng in conda sandbox with 
+Python 3.7.9 version 
+
+Create conda environment using: 
+conda create -n sandbox python=3.7.9
+
+Dependencies installed: 
+streamlit pandas plotly
+
+Run the code as: 
+streamlit run waste_dashboard.py
+
+
 
