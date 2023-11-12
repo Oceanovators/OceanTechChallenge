@@ -1,11 +1,14 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import random
 
 # Mock data for Trash Bins
 trash_bin_data = pd.DataFrame({
-    'Bin_ID': [1, 2, 3, 4, 5],
-    'Warnings': [2, 0, 1, 0, 3]
+    'Bin_ID': [1, 2, 3, 4, 5, 6, 7],
+    'Category': ['Cardboard', 'Glass', 'Metal', 'Paper', 'Plastic', 'Compost', 'Trash'],
+    'Warnings': [2, 0, 1, 0, 3, 2, 1],
+    'Fill_Level': [random.randint(0, 100) for _ in range(7)]  # Mock fill levels
 })
 
 # Mock data for Drones
