@@ -51,7 +51,7 @@ for date in landfill_data['Date']:
 st.title("Waste Surveillance Dashboard")
 
 # Sidebar Navigation
-selected_page = st.sidebar.radio("Navigation", ["Trash Bin", "Drone", "Landfill"])
+selected_page = st.sidebar.radio("Navigation", ["Trash Bin", "Drone", "Beach"])
 
 # Trash Bin Section
 if selected_page == "Trash Bin":
@@ -64,6 +64,6 @@ elif selected_page == "Drone":
     st.plotly_chart(px.scatter(expanded_drone_data, x='Date', y='Quantity', color='Waste_Type', title='Drone Data'))
 
 # Landfills/Beaches Section
-elif selected_page == "Landfill":
-    st.header("Landfills/Beaches Monitoring")
+elif selected_page == "Beach":
+    st.header("Beaches Monitoring")
     st.plotly_chart(px.bar(expanded_landfill_data, x='Date', y='Quantity', color='Waste_Type', title='Landfills/Beaches Data'))
