@@ -3,7 +3,11 @@
 Dashboard for AI-Enhanced Waste Surveillance System
 
 
-https://github.com/sijan67/OceanTechChallenge/assets/70575969/1b70b85c-d3d0-4a9a-92d3-a3ebecae4154
+
+https://github.com/sijan67/OceanTechChallenge/assets/70575969/5b0b46af-8619-4a3f-9237-52b625758f25
+
+
+
 
 
 ### Trash Bin Monitoring:
